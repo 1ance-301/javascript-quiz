@@ -19,13 +19,18 @@ a {
     text-decoration: none;
 }
 
-p {
+.timer {
+    display: flex;
+}
+
+.timer p {
     margin: 0;
+    padding-right: 2px;
 }
 /* header styles end */
 
 /* start page styles start */
-#start-page {
+.container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -45,19 +50,52 @@ h1 {
 p {
     text-align: center;
 }
+/* start page styles end */
 
-#start-btn {
+/* question page styles start */
+#questions {
+    width: 100%;
+    font-weight: bold;
+    
+}
+
+.choices-container {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgba(55, 133, 4, 1);
+    width: 60%;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.choices-number {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    
+}
+
+.choices-text {
+    font-size: 10px;
+    align-self: center;
+    margin-left: 10px;
+}
+/* question page styles end */
+
+/* buttons styles start */
+.btn {
     margin: 20px;
     display: flex;
     justify-content: center;
     background-color: rgba(55, 133, 4, 1);
     color: black;
     height: 25px;
-    padding: 3px 0 0 0;
+    padding: 3px 3px 0 3px;
 }
 
-#btn:hover {
+.btn:hover {
     background-color: rgba(56, 133, 4, 0.705);
     box-shadow: 1.5px 3px black;
 }
-/* start page styles end */
+/* buttons styles end */

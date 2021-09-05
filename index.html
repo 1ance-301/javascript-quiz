@@ -9,17 +9,47 @@
 </head>
 <body>
     <header>
-        <a href="./assets/highscore/highscore.html">View High Scores</a>
-        <p>Timer:</p>
+        <a href="highscore.html">View High Scores</a>
+
+        <div class="timer">
+            <p>Time:</p>
+            <div id="countdownTimer">60</div>
+        </div>
     </header>
+    <!-- start page start -->
     <div class="container">
-        <div id="start-page">
-            <h1>Coding Quiz</h1>
-            <p>This is a quiz with questions about coding. You have until the timer runs out to answer as many questions as you can. You can also view the high scores of previous attempts.
-            </p>
-            <button id="start-btn">Start Quiz</button>
+        <h1>Coding Quiz</h1>
+        <p>This is a quiz with questions about coding. If you answer a question wrong, time will be deducted from the timer. The time left after you have answered all the questions is your score. You can also view the high scores of previous attempts.
+        </p>
+        <button class="btn" id="start-btn">Start Quiz</button>
+    </div>
+    <!-- start page end -->
+
+    <!-- question page start -->
+    <div class="container">
+        <h2 id="questions">
+            This is a question about coding?
+        </h2>
+        
+        <div class="choices-container">
+            <p class="choices-number">1.</p>
+            <p class="choices-text" data-number ="1">Choice 1</p>
+        </div>
+        <div class="choices-container">
+            <p class="choices-number">2.</p>
+            <p class="choices-text" data-number ="2">Choice 2</p>
+        </div>
+        <div class="choices-container">
+            <p class="choices-number">3.</p>
+            <p class="choices-text" data-number ="3">Choice 3</p>
+        </div>
+        <div class="choices-container">
+            <p class="choices-number">4.</p>
+            <p class="choices-text" data-number ="4">Choice 4</p>
         </div>
     </div>
+    <!-- question page end -->
+
 
     <script src="./assets/js/script.js"></script>
 </body>
