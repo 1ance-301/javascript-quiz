@@ -52,39 +52,10 @@ p {
 }
 /* start page styles end */
 
-/* question page styles start */
-#questions {
-    width: 100%;
-    font-weight: bold;
-    
-}
 
-.choices-container {
-    border: 1px solid black;
-    margin: 10px;
-    background-color: rgba(55, 133, 4, 1);
-    width: 60%;
-    height: 20px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.choices-number {
-    font-weight: bold;
-    font-size: 16px;
-    margin: 0 0 0 5px;
-    
-}
-
-.choices-text {
-    font-size: 10px;
-    align-self: center;
-    margin-left: 10px;
-}
-/* question page styles end */
 
 /* buttons styles start */
-.btn {
+#start-btn {
     margin: 20px;
     display: flex;
     justify-content: center;
@@ -92,9 +63,10 @@ p {
     color: black;
     height: 25px;
     padding: 3px 3px 0 3px;
+    font-size: 16px;
 }
 
-.btn:hover {
+#start-btn:hover {
     background-color: rgba(56, 133, 4, 0.705);
     box-shadow: 1.5px 3px black;
 }

@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    background-color: rgb(240, 255, 247);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 30px 100px;
+}
+
+.submit-btn {
+    background-color: rgba(55, 133, 4, 1);
+    display: flex;
+    margin-top: 10px;
+}

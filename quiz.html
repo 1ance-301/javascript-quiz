@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Started</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <a href="highscore.html">View High Scores</a>
+
+        <div class="timer">
+            <p>Time:</p>
+            <div id="countdownTimer">60</div>
+        </div>
+    </header>
+
+    <!-- question page start -->
+    <div class="container" id="quiz-page">
+        <h2 id="questions">
+            This is a question about coding?
+        </h2>
+        
+        <div class="choices-container">
+            <p class="choices-number">1.</p>
+            <p class="choices-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choices-container">
+            <p class="choices-number">2.</p>
+            <p class="choices-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choices-container">
+            <p class="choices-number">3.</p>
+            <p class="choices-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choices-container">
+            <p class="choices-number">4.</p>
+            <p class="choices-text" data-number="4">Choice 4</p>
+        </div>
+        <div>
+            <p id="comment"></p>
+        </div>
+    </div>
+    <!-- question page end -->
+   
+
+    <script src="quiz.js"></script>
+</body>
+</html>

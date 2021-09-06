@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    background-color: rgb(240, 255, 247);
+}
+
+/* header styles start */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.timer {
+    display: flex;
+}
+
+.timer p {
+    margin: 0;
+    padding-right: 2px;
+}
+/* -------------- */
+
+/* question styles start */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+}
+
+#questions {
+    width: 100%;
+    font-weight: bold;
+    
+}
+/* -------------- */
+
+/* multiple choice styles */
+.choices-container {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgba(55, 133, 4, 1);
+    width: 70%;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.choices-number {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    
+}
+
+.choices-text {
+    font-size: 15;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-self: center;
+    margin-left: 10px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.choices-container:hover {
+    cursor: pointer;
+    background-color: rgba(56, 133, 4, 0.705);
+    box-shadow: 1.5px 3px black;
+}
+/* ---------------- */
+
+
+/* comment styles */
+#comment {
+    margin: 20;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(24, 24, 24);
+}
+/* -------------- */
